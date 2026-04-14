@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>COMPUTER SCIENCE STUDENT PORTFOLIO</title>
+  <title>Your Name | CS Student Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <!-- Font Awesome for icons (free) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -12,7 +12,7 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="nav-container">
-      <a href="#" class="nav-logo">COMPUTER SCIENCE STUDENT PORTFOLIO</a>
+      <a href="#" class="nav-logo">YourName.</a>
       <ul class="nav-menu" id="nav-menu">
         <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
@@ -29,7 +29,7 @@
   <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1>Hi, I'm <span class="highlight">JASPER GITONGA</span></h1>
+      <h1>Hi, I'm <span class="highlight">[Your Name]</span></h1>
       <p class="hero-subtitle">Computer Science Student & Aspiring Developer</p>
       <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
       <a href="#projects" class="btn">View My Work</a>
@@ -41,7 +41,7 @@
     <div class="container">
       <h2 class="section-title">About Me</h2>
       <div class="about-content">
-        <p>I'm a Diploma in Computer Science (DCS Level 6) student with a passion for solving problems through code. I enjoy building clean, functional web experiences and automating repetitive tasks with Python. Currently seeking remote opportunities in AI training, transcription, and freelance development.</p>
+        <p>I'm a Diploma in Computer Science (DCS Level 6) student with a passion for solving problems through code. I enjoy building clean, functional web experiences and automating tasks with Python. Currently seeking remote opportunities in AI training, transcription, and freelance development.</p>
         <p>When I'm not coding, I'm learning new technologies or helping friends and family with tech support around the neighborhood.</p>
       </div>
     </div>
@@ -52,63 +52,88 @@
     <div class="container">
       <h2 class="section-title">Technical Skills</h2>
       <div class="skills-grid">
-        <div class="skill-card"><i class="fab fa-html5"></i> HTML5</div>
-        <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS3</div>
-        <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
-        <div class="skill-card"><i class="fab fa-python"></i> Python</div>
-        <div class="skill-card"><i class="fas fa-database"></i> SQL Basics</div>
-        <div class="skill-card"><i class="fas fa-code-branch"></i> Git/GitHub</div>
+        
+        <!-- HTML5 - Links to Portfolio Project -->
+        <a href="#project-portfolio" class="skill-card">
+          <i class="fab fa-html5"></i> HTML5
+        </a>
+        
+        <!-- CSS3 - Links to Portfolio Project -->
+        <a href="#project-portfolio" class="skill-card">
+          <i class="fab fa-css3-alt"></i> CSS3
+        </a>
+        
+        <!-- JavaScript - Links to Portfolio Project -->
+        <a href="#project-portfolio" class="skill-card">
+          <i class="fab fa-js"></i> JavaScript
+        </a>
+        
+        <!-- Python - Links to Intelligence Platform Project -->
+        <a href="#project-intelligence" class="skill-card">
+          <i class="fab fa-python"></i> Python
+        </a>
+        
+        <!-- SQL Basics - Links to Intelligence Platform Project -->
+        <a href="#project-intelligence" class="skill-card">
+          <i class="fas fa-database"></i> SQL Basics
+        </a>
+        
+        <!-- Git/GitHub - Links to your GitHub profile (external) -->
+        <a href="https://github.com/essentialelite0" target="_blank" class="skill-card">
+          <i class="fas fa-code-branch"></i> Git/GitHub
+        </a>
+        
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-<section id="projects" class="projects section">
-  <div class="container">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects-grid">
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <!-- Project 1: Personal Portfolio Website -->
+        <div class="project-card" id="project-portfolio">
+          <div class="project-img placeholder">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive personal website built with HTML, CSS, and JavaScript. Deployed on GitHub Pages.</p>
+          <div class="project-links">
+            <a href="https://github.com/essentialelite0/essentialelite.github.io" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="https://essentialelite0.github.io/essentialelite.github.io/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
 
-      <!-- Project 1: Personal Portfolio Website -->
-      <div class="project-card">
-        <div class="project-img placeholder">
-          <i class="fas fa-laptop-code"></i>
+        <!-- Project 2: KES Market Intelligence Platform -->
+        <div class="project-card" id="project-intelligence">
+          <div class="project-img placeholder">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>KES Market Intelligence Platform</h3>
+          <p><strong>Python • SQLite • REST APIs</strong><br>
+          Live fiat/crypto scraper → historical database → analytics suite. Tracks 23 assets against Kenyan Shilling with trends, volatility, arbitrage detection, portfolio valuation, and price alerts.</p>
+          <div class="project-links">
+            <a href="https://github.com/essentialelite0/python-scraper" target="_blank"><i class="fab fa-github"></i> Repository</a>
+            <a href="https://github.com/essentialelite0/python-scraper/blob/main/rates_new.csv" target="_blank"><i class="fas fa-file-csv"></i> Sample Data</a>
+          </div>
         </div>
-        <h3>Personal Portfolio Website</h3>
-        <p>A responsive personal website built with HTML, CSS, and JavaScript. Deployed on GitHub Pages.</p>
-        <div class="project-links">
-          <a href="https://github.com/essentialelite0/essentialelite.github.io" target="_blank"><i class="fab fa-github"></i> Code</a>
-          <a href="https://essentialelite0.github.io/essentialelite.github.io/" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-        </div>
+
       </div>
-
-<!-- Project: KES Market Intelligence Platform -->
-<div class="project-card">
-  <div class="project-img placeholder">
-    <i class="fas fa-chart-line"></i>  <!-- Changed icon to represent analytics -->
-  </div>
-  <h3>🇰🇪 KES Market Intelligence</h3>
-  <p><strong>Python • SQLite • REST APIs</strong><br>
-  Live fiat/crypto scraper → historical database → analytics suite. Tracks 23 assets against Kenyan Shilling with trends, volatility, arbitrage detection, portfolio valuation, and price alerts.</p>
-  <div class="project-links">
-    <a href="https://github.com/essentialelite0/python-scraper" target="_blank"><i class="fab fa-github"></i> Repository</a>
-    <a href="https://github.com/essentialelite0/python-scraper/blob/main/exchange_rates_master.csv" target="_blank"><i class="fas fa-table"></i> Live Data</a>
-  </div>
-</div>
-
     </div>
-  </div>
-</section>
+  </section>
+
   <!-- Contact Section -->
   <section id="contact" class="contact section bg-light">
     <div class="container">
       <h2 class="section-title">Get In Touch</h2>
       <div class="contact-content">
-        <p><i class="fas fa-envelope"></i> jaspermutembei57@gmail.com</p>
+        <p><i class="fas fa-envelope"></i> your.email@example.com</p>
         <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
         <div class="social-links">
           <a href="#" target="_blank"><i class="fab fa-github"></i></a>
           <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <!-- Add other socials if you have them -->
         </div>
       </div>
     </div>
@@ -116,7 +141,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 JASPER GITONGA. All rights reserved.</p>
+    <p>&copy; 2026 [Your Name]. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
